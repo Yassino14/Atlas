@@ -1,0 +1,25 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local offline speech models (downloaded via `python main.py --download-models`)
+models/
+
+# User runtime data (notes, snippets)
+data/
+
+# Machine-specific Windows shortcut (.lnk generated via `python create_shortcut.py`)
+*.lnk
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.env
